@@ -8,7 +8,7 @@ body {
 
 /*Set max width for the image so it does not exceed the size of its container*/
 img {
-max-width: 325px;
+max-width: 340px;
 }
   
 main {
@@ -24,7 +24,7 @@ main {
   justify-content: center;
   flex-wrap: wrap;
 
-  padding: 25px;
+  padding: 0px 25px 25px 25px;
   margin: 20px;
   border-style: solid;
   border-color: black;
