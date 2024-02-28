@@ -61,3 +61,11 @@ button {
 #error {
     margin: 0px 50px 10px 50px;
 }
+
+/*Moves note that tells users to scroll down on page to see more content 
+to the bottom of the viewport and to the right.*/
+#scroll-down {
+  position: fixed;
+  bottom: 0;
+  right: 100%;
+}
