@@ -40,5 +40,8 @@ textarea {
   resize: none;
 }
 
-
+/*Adds margins to all button elements*/
+button {
+    margin: 20px;
+}
 
