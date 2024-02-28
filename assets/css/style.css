@@ -1,43 +1,43 @@
 body {
-    background-color: rgb(64, 88, 162);
+  background-color: rgb(64, 88, 162);
     
-    /*Centers the main content on the page*/ 
-    display: flex;
-    justify-content: center;
+  /*Centers the main content on the page*/ 
+  display: flex;
+  justify-content: center;
 }
 
 main {
-    max-width: 350px;
+  max-width: 350px;
     
-    /*Gives the main section a bright green color to contrast with the dark background 
-    and draw the users attention to what's important*/
-    background-color: rgb(181, 216, 110);
+  /*Gives the main section a bright green color to contrast with the dark background 
+  and draw the users attention to what's important*/
+  background-color: rgb(181, 216, 110);
 
-    /*Centers content in main section and allows content that overflows on the right 
-    to wrap around to the next line*/
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  /*Centers content in main section and allows content that overflows on the right 
+  to wrap around to the next line*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-    padding: 25px;
-    margin: 20px;
-    border-style: solid;
-    border-color: black;
+  padding: 25px;
+  margin: 20px;
+  border-style: solid;
+  border-color: black;
 }
 
 #paragraph-to-type {
-    padding: 0px 15px 0px 15px;
-    margin: 10px 0px 15px 0px;
-    background-color: rgb(204, 204, 204);
-    border-style: solid;
-    border-color: black;
+  padding: 0px 15px 0px 15px;
+  margin: 10px 0px 15px 0px;
+  background-color: rgb(204, 204, 204);
+  border-style: solid;
+  border-color: black;
 }
 
 /*I read the following forum thread on Stack Overflow to figure out how to disable the resizing feature
 of the text area element.
 https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea#5235160*/
 textarea {
-    resize: none;
+  resize: none;
 }
 
 
