@@ -45,3 +45,14 @@ button {
     margin: 20px;
 }
 
+#timer-section {
+    margin: 10px 50px 10px 50px;
+}
+
+#wpm-section {
+    margin: 0px 50px 10px 50px;
+}
+
+#error {
+    margin: 0px 50px 10px 50px;
+}
