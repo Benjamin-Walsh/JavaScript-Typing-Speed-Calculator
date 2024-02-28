@@ -18,4 +18,9 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    padding: 25px;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
 }
