@@ -1,10 +1,21 @@
 body {
     background-color: rgb(64, 88, 162);
+    
+    /*Centers the main content on the page*/ 
     display: flex;
     justify-content: center;
 }
 
 main {
     max-width: 350px;
+    
+    /*Gives the main section a bright green color to contrast with the dark background 
+    and draw the users attention to what's important*/
     background-color: rgb(181, 216, 110);
+
+    /*Centers content in main section and allows content that overflows on the right 
+    to wrap around to the next line*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
