@@ -63,7 +63,9 @@ button {
 }
 
 /*Moves note that tells users to scroll down on page to see more content 
-to the bottom of the viewport and to the right.*/
+to the bottom of the viewport and to the right. I found some help on how to do this on
+the following stack overflow page.
+https://stackoverflow.com/questions/6029102/align-an-element-to-the-bottom-of-window#6029162*/
 #scroll-down {
   position: fixed;
   bottom: 0;
