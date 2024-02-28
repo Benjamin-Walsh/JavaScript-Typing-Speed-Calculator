@@ -32,3 +32,13 @@ main {
     border-style: solid;
     border-color: black;
 }
+
+/*I read the following forum thread on Stack Overflow to figure out how to disable the resizing feature
+of the text area element.
+https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea#5235160*/
+textarea {
+    resize: none;
+}
+
+
+
