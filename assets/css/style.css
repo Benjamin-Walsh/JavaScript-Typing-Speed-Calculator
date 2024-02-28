@@ -69,5 +69,5 @@ https://stackoverflow.com/questions/6029102/align-an-element-to-the-bottom-of-wi
 #scroll-down {
   position: fixed;
   bottom: 0;
-  right: 100%;
+  float: right;
 }
