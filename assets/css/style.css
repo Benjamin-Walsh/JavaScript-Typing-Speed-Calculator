@@ -6,6 +6,11 @@ body {
   justify-content: center;
 }
 
+/*Set max width for the image so it does not exceed the size of its container*/
+img {
+max-width: 325px;
+}
+  
 main {
   max-width: 350px;
     
