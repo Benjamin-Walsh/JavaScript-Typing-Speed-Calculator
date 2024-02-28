@@ -24,3 +24,11 @@ main {
     border-style: solid;
     border-color: black;
 }
+
+#paragraph-to-type {
+    padding: 0px 15px 0px 15px;
+    margin: 10px 0px 15px 0px;
+    background-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-color: black;
+}
