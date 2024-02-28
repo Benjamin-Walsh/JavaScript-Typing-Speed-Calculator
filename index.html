@@ -17,11 +17,12 @@
 </head>
 <body>
   <main>
-    <!--Paragraph explaining -->
+    <!--Paragraph explaining to the user how to use the page.-->
     <p id="instructions">Click on the 'Start Timer' button and type out the following paragraph as quickly 
       as you can. When you are finished typing, click the submit button to stop the 
       timer and see how many words you typed per minute.</p>
 
+    <!--This is the paragraph that the user must type.-->
     <div id="paragraph-to-type">    
       <p id="paragraph">This is a paragraph which must be typed out by the user. It is 48 words in length.
         If you feel upset, try thinking about all of the things there are to be grateful for in life. 
@@ -29,11 +30,19 @@
       </p>
     </div>  
 
+    <!--This is the text box that the user must type into.
+    Its contents will be checked using javascript to see if 
+    the user typed the paragraph correctly.-->
     <label for="textBox">Type here:</label>
     <textarea id="textBox" name="Text Box" rows="6" cols="45">
     </textarea>
 
+    <!--This button will start a timer using javascript.-->
     <button id="start-timer">Start Timer</button>
+
+    <!--This button will stop the timer and check the contents of the 
+    text area to see if the user typed out the paragraph correctly.-->
+    <button id="submit-button">Submit</button>
   </main>
 </body>
 </html>
