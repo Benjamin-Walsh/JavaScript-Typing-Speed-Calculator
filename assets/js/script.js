@@ -29,8 +29,8 @@ document.getElementById("start-timer").addEventListener("click", function() {
 
       // Stores the text from the text box and the paragraph typed by the user
       // in variables called 'parA' and 'parB'.
-      let parA = document.getElementById("paragraph").innerText
-      let parB = document.getElementById("textBox").value
+      let parA = document.getElementById("paragraph").innerText;
+      let parB = document.getElementById("textBox").value;
 
       // If statement executes code if text in parA and parB are the same.
       if (parA == parB) {
@@ -59,14 +59,14 @@ document.getElementById("start-timer").addEventListener("click", function() {
         document.getElementById("wpm").innerText = wpmFloat.toFixed();
 
         // If the user typed the paragraph correctly, the error message is set to a decorative line.
-        document.getElementById("err").innerText = '_____'
+        document.getElementById("err").innerText = '_____';
 
       // If the text the user typed does not match the paragraph, this error message 
       // is displayed at the bottom of the page.
       } else {
         document.getElementById("err").innerText = 'Error: What you have typed does not exactly match the paragraph. Correct the errors and then submit again.';
       }
-    })
+    });
     
   // Sets interval to 1000ms. This means there is a 1-second delay between
   // instances of the function being run.  
