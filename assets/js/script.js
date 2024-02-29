@@ -38,7 +38,18 @@ document.getElementById("start-timer").addEventListener("click", function() {
         // the same as parA.
         timerOn = false;
 
-        
+        // Stores the seconds taken to type the paragraph in a variable.
+        let secondsTaken = document.getElementById("timer").innerText;
+
+        // There are 60 seconds in a minute. To find the words per minute typed,
+        // I need to first find how many times 60 divides into the seconds taken
+        // to type the paragraph. This gives a value to modify the number of words 
+        // in the original paragraph by.
+        let modifier = secondsTaken / 60;
+        // There are 48 words in the paragraph the user must type. 
+        // In the above equation, if it took the user 30 seconds, 30/60 = 0.5,
+        // so the words per minute (wpm) would be 48/0.5 = 96wpm.
+        let wpmFloat = 48 / modifier;
       }
     })
     
