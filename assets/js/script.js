@@ -60,6 +60,11 @@ document.getElementById("start-timer").addEventListener("click", function() {
 
         // If the user typed the paragraph correctly, the error message is set to a decorative line.
         document.getElementById("err").innerText = '_____'
+
+      // If the text the user typed does not match the paragraph, this error message 
+      // is displayed at the bottom of the page.
+      } else {
+        document.getElementById("err").innerText = 'Error: What you have typed does not exactly match the paragraph. Correct the errors and then submit again.';
       }
     })
     
