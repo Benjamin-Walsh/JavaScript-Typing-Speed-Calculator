@@ -22,6 +22,12 @@ document.getElementById("start-timer").addEventListener("click", function() {
       // of the time variable after it has been increased.
       document.getElementById("timer").innerText = time;
     }  
+
+    // Adds an event listener which causes specified function to run 
+    // when the 'submit' button is clicked.  
+    document.getElementById("submit-button").addEventListener("click", function() {
+      
+    })
     
   // Sets interval to 1000ms. This means there is a 1-second delay between
   // instances of the function being run.  
