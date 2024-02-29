@@ -50,6 +50,16 @@ document.getElementById("start-timer").addEventListener("click", function() {
         // In the above equation, if it took the user 30 seconds, 30/60 = 0.5,
         // so the words per minute (wpm) would be 48/0.5 = 96wpm.
         let wpmFloat = 48 / modifier;
+
+        // The result of the above equations (wpmFloat) is rounded to an integer
+        // using the toFixed() function without giving it a parameter,
+        // meaning any digits after the decimal place are removed.
+        // I found information about this function on w3schools.blog (link below):
+        // https://www.w3schools.blog/tofixed-number-javascript-js
+        document.getElementById("wpm").innerText = wpmFloat.toFixed();
+
+        // If the user typed the paragraph correctly, the error message is set to a decorative line.
+        document.getElementById("err").innerText = '_____'
       }
     })
     
