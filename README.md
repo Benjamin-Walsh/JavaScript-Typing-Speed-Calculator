@@ -63,10 +63,17 @@ W3C Markup (HTML Validator)
 
 ## Testing
 The W3C Markup, W3C Jigsaw and JShint validators were used to test the css, html and javascript in this project.
+There were missing semicolons in the JS file which were subsequesntly added. The CSS file and html file had no errors.
 
+![CSS Validation Results](assets/images/css-check.png)
+![HTML Validation Results](assets/images/html-check.png)
+![JS Validation Results](assets/images/javascript-check.png)
 
+## Credits 
 
+### Media
 
+### Resources
 
 
 
