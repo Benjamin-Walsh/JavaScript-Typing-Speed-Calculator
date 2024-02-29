@@ -4,6 +4,12 @@ body {
   /*Centers the main content on the page*/ 
   display: flex;
   justify-content: center;
+
+  /*Sets main font (arial) and fallback fonts in case main font fails to load.
+  I got information on web-safe fonts and how to set up fall-back fonts from 
+  geeksforgeeks.org (link to article below):
+  https://www.geeksforgeeks.org/what-are-web-safe-fonts-and-fallback-fonts-in-css/*/
+  font-family: Arial, Verdana, Helvetica;
 }
 
 /*Set max width for the image so it does not exceed the size of its container*/
