@@ -34,9 +34,28 @@ designed to be intuitive and easy to use.
 ### Wireframe 
 ![Wireframe Image](assets/images/wireframe.png)
 
+## Features
+1. Start timer button to begin counter counting in seconds while the user types.
+2. Submit button which checks if what the user typed matches the paragraph of text,
+   giving an error message if not and telling the user how many words per minute they
+   typed if they do match.
+3. Reset page button which clears text area and resets variables.
 
+## Utilized Technologies
+### Languages:
+JavaScript
+HTML5
+CSS3
 
-
+### Other Programs:
+Visual Studio Code (for coding)
+GitHub (for storing code and page deployment)
+MsPaint (for basic wireframe)
+Freeconvert.com (to convert images to webp format)
+PythonTutor.com (for checking JavaScript code)
+Jshint.com (Javascript validator)
+Jigsaw (CSS validator)
+W3C (HTML Validator)
 
 
 
