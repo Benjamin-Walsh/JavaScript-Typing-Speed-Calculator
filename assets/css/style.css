@@ -12,6 +12,10 @@ body {
   font-family: Arial, Verdana, Helvetica;
 }
 
+h1 {
+  font-size: 75%;
+}
+
 /*Set max width for the image so it does not exceed the size of its container*/
 img {
 max-width: 340px;
