@@ -27,13 +27,23 @@ document.getElementById("start-timer").addEventListener("click", function() {
     // when the 'submit' button is clicked.  
     document.getElementById("submit-button").addEventListener("click", function() {
 
-      // Stores the text from the text box and the paragraph to be typed by the user
+      // Stores the text from the text box and the paragraph typed by the user
       // in variables called 'parA' and 'parB'.
       let parA = document.getElementById("paragraph").innerText
       let parB = document.getElementById("textBox").value
+
+      // If statement executes code if text in parA and parB are the same.
+      if (parA == parB) {
+        
+      }
     })
     
   // Sets interval to 1000ms. This means there is a 1-second delay between
   // instances of the function being run.  
   }, 1000);  
 });
+
+
+
+
+
