@@ -32,7 +32,7 @@ designed to be intuitive and easy to use.
    legible, which suits the site as users should be able to read what they are typing easily.          
 
 ### Wireframe 
-
+![Wireframe Image](assets/images/wireframe.png)
 
 
 
