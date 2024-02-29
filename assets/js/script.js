@@ -34,6 +34,10 @@ document.getElementById("start-timer").addEventListener("click", function() {
 
       // If statement executes code if text in parA and parB are the same.
       if (parA == parB) {
+        // Stops the counter (timer) from counting if the user typed parB 
+        // the same as parA.
+        timerOn = false;
+
         
       }
     })
