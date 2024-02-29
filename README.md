@@ -72,11 +72,14 @@ There were missing semicolons in the JS file which were subsequesntly added. The
 ## Credits 
 
 ### Media
+Image by StartupStockPhotos from https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849825
 
 ### Resources
-
-
-
-
-
+How to Get HTML Boilerplate in VS Code: [Link to bodhtutorials article](https://www.bodhtutorials.com/how-to-get-html-boilerplate-in-vs-code/)
+Converted image from jpg to webp with https://www.freeconvert.com/jpg-to-webp
+Font information (https://www.geeksforgeeks.org/what-are-web-safe-fonts-and-fallback-fonts-in-css/)
+Project based on help from Code Institute course
+Code Institute project template used: https://github.com/Code-Institute-Org/ci-full-template
+Rounding Floats credit: https://www.w3schools.blog/tofixed-number-javascript-js
+Used for device mockups: https://app.shotsnapp.com/
      
