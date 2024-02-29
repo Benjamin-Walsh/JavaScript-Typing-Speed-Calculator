@@ -26,7 +26,11 @@ document.getElementById("start-timer").addEventListener("click", function() {
     // Adds an event listener which causes specified function to run 
     // when the 'submit' button is clicked.  
     document.getElementById("submit-button").addEventListener("click", function() {
-      
+
+      // Stores the text from the text box and the paragraph to be typed by the user
+      // in variables called 'parA' and 'parB'.
+      let parA = document.getElementById("paragraph").innerText
+      let parB = document.getElementById("textBox").value
     })
     
   // Sets interval to 1000ms. This means there is a 1-second delay between
