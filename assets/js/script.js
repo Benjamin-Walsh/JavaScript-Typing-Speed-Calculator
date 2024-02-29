@@ -54,7 +54,7 @@ document.getElementById("start-timer").addEventListener("click", function() {
         // The result of the above equations (wpmFloat) is rounded to an integer
         // using the toFixed() function without giving it a parameter,
         // meaning any digits after the decimal place are removed.
-        // I found information about this function on w3schools.blog (link below):
+        // I found information about this function on w3schools.blog (url below):
         // https://www.w3schools.blog/tofixed-number-javascript-js
         document.getElementById("wpm").innerText = wpmFloat.toFixed();
 
@@ -73,7 +73,18 @@ document.getElementById("start-timer").addEventListener("click", function() {
   }, 1000);  
 });
 
-
+// Adds an event listener to the 'reset page' button.
+document.getElementById("reset-page").addEventListener("click", function() {
+  
+  // Erases the text the user has entered into the text box because that is not done
+  // by merely reloading the page (at least in the browser I am using).
+  document.getElementById("textBox").value = '';
+  
+  // I learned how to reload a page using javascript on Stack Overflow (article url below).
+  // (The reloading technique is implemented below) 
+  // https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript#3715123
+  window.location.reload();
+});
 
 
 
